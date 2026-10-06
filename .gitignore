@@ -1,0 +1,62 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.volatility_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+output/*
+!output/.gitkeep
+reports/*
+!reports/.gitkeep
+input/*
+!input/.gitkeep
+*.raw
+*.mem
+*.dmp
+*.vmem
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Forensic evidence
+input/
+*.raw
+*.dmp
+*.mem
+*.bin
+*.vmem
+*.lime
+*.aff4
+*.e01
+
+# Generated analysis data
+output/
+reports/
+results/
+
+# Caches
+.pytest_cache/
+.volatility_cache/
+.volatility_cache_lab3/
+
+# Local Volatility source/cache
+volatility3/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+
+# OS
+Thumbs.db
+.DS_Store
